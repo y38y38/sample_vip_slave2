@@ -1,0 +1,21 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-440,-300",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port CLK -pg 1 -lvl 0 -x -110 -y -90 -defaultsOSRD
+preplace port RESET -pg 1 -lvl 0 -x -110 -y -70 -defaultsOSRD
+preplace port INIT -pg 1 -lvl 0 -x -110 -y -110 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 2 -x 400 -y -90 -defaultsOSRD
+preplace inst myip_v1_0_0 -pg 1 -lvl 1 -x 110 -y -90 -defaultsOSRD
+preplace netloc m00_axi_aclk_0_1 1 0 2 -80 -10 300
+preplace netloc m00_axi_aresetn_0_1 1 0 2 -90 0 310
+preplace netloc m00_axi_init_axi_txn_0_1 1 0 1 N -110
+preplace netloc myip_v1_0_0_m00_axi 1 1 1 N -110
+levelinfo -pg 1 -110 110 400 500
+pagesize -pg 1 -db -bbox -sgen -210 -170 500 160
+"
+}
+

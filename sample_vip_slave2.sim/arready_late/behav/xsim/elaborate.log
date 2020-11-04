@@ -1,0 +1,13 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 682dc6c59b104d679a7cd8dc8b6defc6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_7 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot arready_late_behav xil_defaultlib.arready_late xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_awuser' [/home/y/project/sample_vip_slave2/sample_vip_slave2.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:229]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_wuser' [/home/y/project/sample_vip_slave2/sample_vip_slave2.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:235]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_buser' [/home/y/project/sample_vip_slave2/sample_vip_slave2.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:240]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_aruser' [/home/y/project/sample_vip_slave2/sample_vip_slave2.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:252]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'm00_axi_ruser' [/home/y/project/sample_vip_slave2/sample_vip_slave2.ip_user_files/bd/design_1/ip/design_1_myip_v1_0_0_0/sim/design_1_myip_v1_0_0_0.v:259]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

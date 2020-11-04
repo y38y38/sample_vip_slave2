@@ -1,0 +1,7 @@
+Running: xsim.dir/no_late_behav/xsimk -simmode gui -wdb no_late_behav.wdb -simrunnum 0 -socket 35319
+Design successfully loaded
+Design Loading Memory Usage: 37164 KB (Peak: 37172 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 131968 KB (Peak: 176432 KB)
+Simulation CPU Usage: 70 ms

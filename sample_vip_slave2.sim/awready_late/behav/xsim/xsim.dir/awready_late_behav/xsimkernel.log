@@ -1,0 +1,7 @@
+Running: xsim.dir/awready_late_behav/xsimk -simmode gui -wdb awready_late_behav.wdb -simrunnum 0 -socket 46891
+Design successfully loaded
+Design Loading Memory Usage: 37172 KB (Peak: 37180 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 131976 KB (Peak: 176440 KB)
+Simulation CPU Usage: 50 ms
